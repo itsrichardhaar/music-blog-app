@@ -4,18 +4,19 @@ import "./playlist.css";
 const PlaylistCard = props => (
   <div className="card">
     <div className="img-container">
+      <strong>Name:</strong> {props.name}
       <img alt={props.name} src={props.image} />
     </div>
     <div className="content">
       <ul>
         <li>
-          <strong>Title:</strong> {props.name}
+          <strong>Specials:</strong> {props.location}
         </li>
         <li>
-          <strong>Genre:</strong> {props.occupation}
+          <strong>Entertainment:</strong> {props.location}
         </li>
         <li>
-          <strong>Length:</strong> {props.location}
+          <strong>Attendance:</strong> {props.name}
         </li>
       </ul>
     </div>
