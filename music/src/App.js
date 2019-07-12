@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-        <h1>HAB?TS</h1>
+        <h1></h1>
 
         <Form />
 
@@ -18,7 +18,9 @@ class App extends Component {
         <PlaylistCard />
         <PlaylistCard />
         <PlaylistCard />
-        
+        <PlaylistCard />
+        <PlaylistCard />
+        <PlaylistCard />
       </div>
     );
   }
